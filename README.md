@@ -1,2 +1,2 @@
 # Quant-Finance-Projects
-This repository contains a project based on the Markowitz Model
+This repository contains projects related to quantitative finance
