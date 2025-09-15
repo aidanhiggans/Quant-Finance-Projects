@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 import scipy.optimize as optimization
 
-NUM_PORTFOLIOS = 500000
+NUM_PORTFOLIOS = 700000
 
 RISK_FREE_RATE = 0.03
 
 BENCHMARK = 'SPY'
 
-CAP = 0.25
+CAP = 0.2
 
-stocks = ['AAPL', 'WMT', 'TSLA', 'GE', 'DB', 'MSFT' , 'UNH', 'JPM', 'BRK-B','XOM','JNJ']
+stocks = ['AAPL', 'WMT', 'TSLA','AMZN', 'GE', 'DB', 'MSFT' , 'UNH', 'JPM', 'BRK-B','XOM','JNJ']
 
 start_date = '2015-01-01'
 end_date = '2025-01-01'
