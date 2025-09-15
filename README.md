@@ -1,4 +1,4 @@
-# Quant-Finance-Projects
+# Markowitz Model - Modern Portfolio Theory
 
 ## Project Overview
 This project implements the **Markowitz Model - one of the fundamental models of Modern Portfolio Theory**, using Python to construct,simulate and optimize investment portfolios 
