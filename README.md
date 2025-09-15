@@ -1,2 +1,4 @@
 # Quant-Finance-Projects
-This repository contains projects related to quantitative finance
+
+## Project Overview
+This project implements one of the fundamental models in **Modern Portfolio Theory - The Markowitz Model**. Python is used to construct, simulate and optimize investment portfolios.
