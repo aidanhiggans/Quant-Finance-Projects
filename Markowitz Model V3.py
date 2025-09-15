@@ -18,10 +18,10 @@ BENCHMARK = 'SPY'
 CAP = 0.1
 
 # Stocks to be included in the Portfolio
-stocks = ['AAPL','MSFT','NVDA', 'AMZN','META','GOOGL','AVGO','BRK-B','TSLA','JPM','UNH','V','LLY','XOM','JNJ']
+stocks = ['AAPL','MSFT','NVDA','AMZN','TSLA']
 
 # Historical Data - Defining the START and END Dates
-start_date = '2018-01-01'
+start_date = '2015-01-01'
 end_date = '2025-01-01'
 
 # -----------------------------------
