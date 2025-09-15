@@ -4,15 +4,17 @@
 This project implements the **Markowitz Model - one of the fundamental models of Modern Portfolio Theory**, using Python to construct,simulate and optimize investment portfolios 
 
 The model uses **Monte Carlo simulations** to generate thousands of random portfolios, evaluates their performance (expected return, volatility, and Sharpe ratio), and identifies:
-- ✅ The **optimal portfolio** (maximizing Sharpe ratio)  
-- ✅ The **minimum variance portfolio**  
-- ✅ Comparison against a **benchmark ETF (S&P 500 – SPY)**  
+- The **optimal portfolio** (maximizing Sharpe ratio)  
+- The **minimum variance portfolio**  
+- Comparison against a **benchmark ETF (such as S&P 500 – SPY)**
+
+The implementation includes flexible parameters for seamless sensitivity analysis, such as the number of simulated portfolios, risk-free rate, benchmark selection, allocation caps, customizable asset universe, and investment timeline
 
 The project demonstrates key concepts in **quantitative finance, portfolio theory, and optimization**.
 
 ---
 
-## ⚙️ Features
+## Features
 - Download historical price data from Yahoo Finance (`yfinance`)  
 - Compute **log returns, expected returns, volatility, covariance**  
 - Run **Monte Carlo simulation** to generate random portfolios  
@@ -25,7 +27,7 @@ The project demonstrates key concepts in **quantitative finance, portfolio theor
 
 ---
 
-## 📊 Methodology
+## Methodology
 1. **Data Collection:** Download stock price history from Yahoo Finance.  
 2. **Visualizing Stock Price History:** Plotting stock prices over the specified time interval.
 3. **Return Calculation:** Compute log daily returns, annualize returns and covariance.  
@@ -36,7 +38,7 @@ The project demonstrates key concepts in **quantitative finance, portfolio theor
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Language:** Python 3  
 - **Libraries:**  
   - `numpy` (numerical computations)
@@ -47,7 +49,7 @@ The project demonstrates key concepts in **quantitative finance, portfolio theor
 
 ---
 
-## 🚀 How to Run
+## How to Run
 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/portfolio-optimization.git
