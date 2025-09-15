@@ -6,7 +6,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import scipy.optimize as optimization
 
 # Number of different portfolios generated with random weights
-NUM_PORTFOLIOS = 600000
+NUM_PORTFOLIOS = 800000
 
 # Rate of return of risk-free security (such as a treasury bill or bond) which will be used to calculate Sharpe Ratio
 RISK_FREE_RATE = 0.03
