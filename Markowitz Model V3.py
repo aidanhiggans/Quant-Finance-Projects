@@ -14,7 +14,7 @@ RISK_FREE_RATE = 0.03
 # Benchmark ETF or Stock for comparison
 BENCHMARK = 'SPY'
 
-# Cap weight for an individual stock (i.e. the maximum amount that can be invested ina single stock)
+# Cap weight for an individual stock (i.e. the maximum amount that can be invested in a single stock)
 CAP = 0.25
 
 # Stocks to be included in the Portfolio
