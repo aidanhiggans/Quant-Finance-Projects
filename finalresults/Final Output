@@ -1,0 +1,5 @@
+Optimal Portfolio: [0.2  0.2  0.12 0.2  0.2  0.08 0.   0.   0.   0.  ]
+Expected Optimal Portfolio Return, Volatility and Sharpe Ratio: [0.23254511 0.20550944 0.9855757 ]
+Minimum Variance Portfolio: [0.06 0.2  0.   0.08 0.12 0.   0.2  0.14 0.2  0.  ]
+Expected Minimum Variance Portfolio Return, Volatility and Sharpe Ratio: [0.13152969 0.15804362 0.64241563]
+Benchmark Return, Volatility and Sharpe Ratio (SPY): [0.13031361 0.17679352 0.56740547]
