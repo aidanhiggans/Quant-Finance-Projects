@@ -56,7 +56,7 @@ def show_data(data):
 # -----------------------------
 
 def calculate_return(data):
-    # Log daily returns are used through the following formula: ln(S(t)/S(t-1))
+    # Log daily returns are calculated using the following formula: ln(S(t)/S(t-1))
     # To capture the formula data.shift(1) function is used where data values are moved one step to the right
     # for e.g. data = 1 2 3 4 5 ...
     # data.shift(1) =   1 2 3 4 5 ...
@@ -85,7 +85,7 @@ def show_mean_and_variance(returns, weights):
     portfolio_volatility = np.sqrt(np.dot(weights.T, np.dot(returns.cov() * 252, weights)))
 
     # Converting log returns to arithmetic returns
-    # There is no need to convert volatilit from log returns to volatility from true arithmetic returns, as the difference is negligible
+    # There is no need to convert volatility from log returns to volatility from true arithmetic returns, as the difference is negligible
     portfolio_arithmetic_return = np.exp(portfolio_log_return) -1
 
     print("Expected Portfolio Return:", portfolio_arithmetic_return)
@@ -198,7 +198,7 @@ def optimize_portfolio(weights, returns):
     # Since np.sum(x) is equal to 1 (sum of weights is equal to 1) then np.sum(x) - 1 is equal to 0
     # Scipy optimization function deals with functions equal to 0, which is why it is necessary for the lambda expression (np.sum(x) - 1) is equal to 0
     # Second constraint is that maximum weight is 1, i.e. when 100% of the money is invested in a single stock
-    # Bounds are created through tuples and a for loop that generate numbers between 0 and 1 as the weight for each stock
+    # Bounds are created through tuples and a for loop that generate numbers between 0 and the allocation cap as the weight for each stock
     # Function to be optimized is min_function_sharpe, with the first weight being the initial value, and returns is the argument
     # Optimization method to be used is SLSQP
     constraints = {'type': 'eq', 'fun': lambda x: np.sum(x) - 1}
