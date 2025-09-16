@@ -6,7 +6,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import scipy.optimize as optimization
 
 # Number of different portfolios generated with random weights
-NUM_PORTFOLIOS = 700000
+NUM_PORTFOLIOS = 1000000
 
 # Rate of return of risk-free security (such as a treasury bill or bond) which will be used to calculate Sharpe Ratio
 RISK_FREE_RATE = 0.03
@@ -18,7 +18,7 @@ BENCHMARK = 'SPY'
 CAP = 0.2
 
 # Stocks to be included in the Portfolio
-stocks = ['AAPL', 'WMT', 'TSLA','AMZN', 'GE', 'DB', 'MSFT' , 'UNH', 'JPM', 'BRK-B','XOM','JNJ']
+stocks = ['AAPL', 'WMT', 'TSLA', 'MSFT' , 'UNH', 'JPM', 'BRK-B','XOM','JNJ','DB']
 
 
 # Historical Data - Defining the START and END Dates
